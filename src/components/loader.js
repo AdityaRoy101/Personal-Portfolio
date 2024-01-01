@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';
 // import { IconLoader } from '@components/icons';
-import NewLoder from './newLoder';
+import NewLoder from './NewLoder';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
