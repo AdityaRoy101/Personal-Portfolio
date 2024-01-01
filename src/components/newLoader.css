@@ -28,10 +28,6 @@
     position: relative;
     animation: text 3s 1;
   }
-  .text2{
-    font-size: 30px;
-    color: #6ab04c;
-  }
   
   @keyframes text {
     0%{
