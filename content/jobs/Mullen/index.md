@@ -1,12 +1,11 @@
 ---
 date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+title: 'Graphic & Logo Designer'
+company: 'Freelancer'
+location: 'Self'
+range: 'November 2018 - January 2020'
+# url: 'https://us.mullenlowe.com/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Nowday's every company or big brands have a unique indentity in the market and most of the uniquess comes from the Brand Logo itself it is crucial and non-verbally connects the customer needs to the product.
+- I was a Logo Designer working as a Freelancer at UpWork and Etsy, i have built numerious logo concept's and i have some happy client's impressed of my work.

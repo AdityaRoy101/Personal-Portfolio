@@ -1,11 +1,12 @@
 ---
-date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+date: '2023-06-13'
+title: 'Android Developer'
+company: 'Corizo'
+location: 'Remote'
+range: 'June 2023 - August 2023'
+url: 'https://corizo.in/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- <span style="color: #FFCC00;">Learning: </span>Learn how to built android apps using (React Native) on <span style="color: #FFCC00;">Android Studios</span>.
+- <span style="color: #FFCC00;">Project: </span>Developed a Tour Vacation app to find nearest tourist destinations places.
+- <span style="color: #FFCC00;">Impact: </span>Their was a 28% increase in customer satisfaction in result made by the app.

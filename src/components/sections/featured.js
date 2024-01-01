@@ -117,14 +117,14 @@ const StyledProject = styled.li`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--green);
+    color: #FFCC00;
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
   }
 
   .project-title {
-    color: var(--lightest-slate);
+    color: #FAF5E9;
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: #FFCC00;
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -347,8 +347,8 @@ const Featured = () => {
 
   return (
     <section id="projects">
-      <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+      <h2 className="numbered-heading texttColor" ref={revealTitle}>
+        <span style={{ color: '#FAF5E9' }}>Some Things I’ve Built</span>
       </h2>
 
       <StyledProjectsGrid>

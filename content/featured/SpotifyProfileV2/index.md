@@ -1,16 +1,14 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'F.R.I.D.A.Y_-_Ver-1.0'
+cover: './Artificial Intelligence and Machine Learning Courses.png'
+external: 'https://github.com/AdityaRoy101/F.R.I.D.A.Y_-_Ver-1.0'
+cta: 'https://github.com/AdityaRoy101/F.R.I.D.A.Y_-_Ver-1.0'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - NLP
+  - Python
+  - Openai Api
+  - Random Forest
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
-
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+This is a Python program for an Intelligent Voice Assistant integrated with the Open Ai intelligent model. It can address and resolve inquiries in Hindi, conduct internet searches, and can translate and give information in English. It can also open Programs and website and can do scrapping. The program has been trained using NLP, Machine Learning, Linear Regression Model, and Intent Classification.

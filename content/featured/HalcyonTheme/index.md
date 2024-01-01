@@ -1,15 +1,15 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Oversea'
+cover: './E-commerce_screenshot.png'
+github: 'https://github.com/AdityaRoy101/e-commerce'
+external: 'https://iridescent-palmier-ae7e37.netlify.app/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - React
+  - Redux
+  - TypeScript
+  - Firebase
+  - Tailwind
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A fully responsive, scalable E-commerce shopping website used lazy loading with suspense to enhance user experience. React and Redux were used for the frontend to ensure optimal performance and functionality. [React](https://react.dev/), [Redux](https://redux.js.org/), [Tailwind](https://tailwindcss.com/), [HOC](https://www.smashingmagazine.com/2020/06/higher-order-components-react/).
