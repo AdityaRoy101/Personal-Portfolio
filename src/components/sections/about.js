@@ -194,10 +194,6 @@ const About = () => {
           <StyledText>
             <div>
               <p>
-                {/* Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-                interest in web development started back in 2012 when I decided to try editing custom
-                Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-                about HTML &amp; CSS! */}
                 Hi!👋 I'm Aditya Roy, a creative thinker who is passionate about creating meaningful digital experiences. My journey began in 2018 with Logo Design using Photoshop and Illustrator. Venturing into freelancing a year later, I discovered the power of HTML, CSS, and web development, which led me to explore and master technologies like JavaScript and React. With <span className='yellowStyle'>1.5+ years</span> of experience in <span className='yellowStyle'>React</span>, it has become my go-to language. Currently, I'm designing innovative websites to continue growing as a <span className='yellowStyle'>Developer</span>. Let's build something great together!
                 <br /> 
                 <br />
