@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-import Slider from '../Slider/Slider';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -20,7 +19,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: #FFCC00;
+    color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -28,10 +27,6 @@ const StyledHeroSection = styled.section`
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
     }
-  }
-
-  h2 {
-    color: #FAF5E9;
   }
 
   h3 {
@@ -48,7 +43,6 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
-    color: #FFCC00;
   }
 `;
 
@@ -66,32 +60,28 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading" style={{ fontSize: 75 }}>Aditya Roy.</h2>;
-  // const three = <h3 className="big-heading">I build things for the web.</h3>;
-  const three = < Slider />;
+  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
+  const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
-      <p style={{ fontSize: 16 }}>
-        {'"'}Passionate software developer with over a year of hands-on experience in React, 
-        creating seamless digital experiences, My expertise extends beyond code, I bring a deep understanding of software and web development, 
-        to elevate expectation of users to new heights.{'"'}
-        {/* {'"'}Passionate software developer with over a year of hands-on experience in React, 
-        blending creativity with robust system design to craft seamless digital experiences 
-        My expertise extends beyond code, I bring a deep understanding of software and web development, 
-        coupled with a keen eye for system design to elevate expectation of users to new heights.{'"'} */}
-        {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+      <p>
+        I’m a software engineer specializing in building (and occasionally designing) exceptional
+        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        at{' '}
+        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
-        </a> */}
+        </a>
+        .
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.linkedin.com/in/adityaroy101/"
+      href="https://www.newline.co/courses/build-a-spotify-connected-app"
       target="_blank"
       rel="noreferrer">
-       Contact Me.
+      Check out my course!
     </a>
   );
 

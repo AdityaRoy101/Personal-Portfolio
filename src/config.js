@@ -1,26 +1,26 @@
 module.exports = {
-  email: 'mr.adityaroy101@gmail.com',
+  email: 'brittany.chiang@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/AdityaRoy101',
+      url: 'https://github.com/bchiang7',
     },
     {
       name: 'Instagram',
-      url: 'https://github.com/AdityaRoy101',
+      url: 'https://www.instagram.com/bchiang7',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/ArtCitye',
+      url: 'https://twitter.com/bchiang7',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/adityaroy101/',
+      url: 'https://www.linkedin.com/in/bchiang7',
     },
     {
       name: 'Codepen',
-      url: 'https://www.linkedin.com/in/adityaroy101/',
+      url: 'https://codepen.io/bchiang7',
     },
   ],
 
@@ -34,7 +34,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Projects',
+      name: 'Work',
       url: '/#projects',
     },
     {
@@ -44,10 +44,9 @@ module.exports = {
   ],
 
   colors: {
-    green: '#FFCC00',
+    green: '#64ffda',
     navy: '#0a192f',
-    darkNavy: '#0a192f',
-    // darkNavy: '#020c1b',
+    darkNavy: '#020c1b',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

@@ -1,9 +1,9 @@
 import { css } from 'styled-components';
 
 const button = css`
-  color: #FFCC00;
+  color: var(--green);
   background-color: transparent;
-  border: 1px solid #FFCC00;
+  border: 1px solid var(--green);
   border-radius: var(--border-radius);
   font-size: var(--fz-xs);
   font-family: var(--font-mono);
@@ -15,7 +15,7 @@ const button = css`
   &:hover,
   &:focus-visible {
     outline: none;
-    box-shadow: 4px 4px 0 0 #FFCC00;
+    box-shadow: 4px 4px 0 0 var(--green);
     transform: translate(-5px, -5px);
   }
   &:after {
@@ -46,7 +46,7 @@ const mixins = {
 
     &:hover,
     &:focus-visible {
-      color: #FFCC00;
+      color: var(--green);
       outline: 0;
     }
   `,
@@ -54,18 +54,18 @@ const mixins = {
   inlineLink: css`
     display: inline-block;
     position: relative;
-    color: #FFCC00;
+    color: var(--green);
     transition: var(--transition);
 
     &:hover,
     &:focus-visible {
-      color: #FFCC00;
+      color: var(--green);
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: #FFCC00 !important;
+        color: var(--green) !important;
         transition: var(--transition);
       }
     }
@@ -76,7 +76,7 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: #FFCC00;
+      background-color: var(--green);
       opacity: 0.5;
       @media (prefers-reduced-motion: no-preference) {
         transition: var(--transition);
@@ -87,9 +87,9 @@ const mixins = {
   button,
 
   smallButton: css`
-    color: #FFCC00;
+    color: var(--green);
     background-color: transparent;
-    border: 1px solid #FFCC00;
+    border: 1px solid var(--green);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-size: var(--fz-xs);
@@ -101,7 +101,7 @@ const mixins = {
     &:hover,
     &:focus-visible {
       outline: none;
-      box-shadow: 3px 3px 0 0 #FFCC00;
+      box-shadow: 3px 3px 0 0 var(--green);
       transform: translate(-4px, -4px);
     }
     &:after {
@@ -110,9 +110,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: #FFCC00;
+    color: var(--green);
     background-color: transparent;
-    border: 1px solid #FFCC00;
+    border: 1px solid var(--green);
     border-radius: var(--border-radius);
     padding: 1.25rem 1.75rem;
     font-size: var(--fz-sm);
@@ -124,7 +124,7 @@ const mixins = {
     &:hover,
     &:focus-visible {
       outline: none;
-      box-shadow: 4px 4px 0 0 #FFCC00;
+      box-shadow: 4px 4px 0 0 var(--green);
       transform: translate(-5px, -5px);
     }
     &:after {
@@ -155,7 +155,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: #FFCC00;
+        color: var(--green);
       }
     }
   `,

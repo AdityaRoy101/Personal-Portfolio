@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed #FFCC00;
+    outline: 2px dashed var(--green);
     outline-offset: 3px;
   }
 
@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed #FFCC00;
+    outline: 2px dashed var(--green);
     outline-offset: 3px;
   }
 
@@ -194,7 +194,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: #FFCC00;
+      color: var(--green);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -209,11 +209,11 @@ const GlobalStyle = createGlobalStyle`
       content: '';
       display: block;
       position: relative;
-      top: 9px;
+      top: -5px;
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: #FFCC00;
+      background-color: var(--lightest-navy);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -261,7 +261,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: #FFCC00;
+      color: var(--green);
     }
 
     &.inline-link {
@@ -325,14 +325,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: #FFCC00;
+          color: var(--green);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: #FFCC00;
+    border-left-color: var(--green);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -372,7 +372,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: #FFCC00;
+      background-color: var(--green);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -386,18 +386,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: #FFCC00;
+    color: var(--green);
   }
 
   .overline {
-    color: #FFCC00;
+    color: var(--green);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: #FFCC00;
+    color: var(--green);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -420,7 +420,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: #FFCC00;
+    color: var(--green);
 
     .arrow {
       display: block;

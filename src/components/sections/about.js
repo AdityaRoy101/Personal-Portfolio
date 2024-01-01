@@ -4,33 +4,21 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
-import Skills from './Skills/Skills';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
-  .yellowStylee {
-    color: #FFCC00;
-  }
-
   .inner {
     display: grid;
-    grid-template-columns: 2fr 2.8fr;
+    grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
       display: block;
     }
-
-    // .leftShiftAlign {
-    //   display: flexbox;
-    // }
   }
-
-  h2 {
-    color: #FAF5E9;
-  }
-
+`;
+const StyledText = styled.div`
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -48,46 +36,15 @@ const StyledAboutSection = styled.section`
       font-size: var(--fz-xs);
 
       &:before {
-        content: '➤';
+        content: '▹';
         position: absolute;
         left: 0;
-        color: #FFCC00;
+        color: var(--green);
         font-size: var(--fz-sm);
-        line-height: 15px;
+        line-height: 12px;
       }
     }
   }
-`;
-const StyledText = styled.div`
-  .yellowStyle {
-    color: #FFCC00;
-  }
-  // ul.skills-list {
-  //   display: grid;
-  //   grid-template-columns: repeat(2, minmax(140px, 200px));
-  //   grid-gap: 0 10px;
-  //   padding: 0;
-  //   margin: 20px 0 0 0;
-  //   overflow: hidden;
-  //   list-style: none;
-
-  //   li {
-  //     position: relative;
-  //     margin-bottom: 10px;
-  //     padding-left: 20px;
-  //     font-family: var(--font-mono);
-  //     font-size: var(--fz-xs);
-
-  //     &:before {
-  //       content: '▹';
-  //       position: absolute;
-  //       left: 0;
-  //       color: #FFCC00;
-  //       font-size: var(--fz-sm);
-  //       line-height: 12px;
-  //     }
-  //   }
-  // }
 `;
 const StyledPic = styled.div`
   position: relative;
@@ -104,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: #FFCC00;
+    background-color: var(--green);
 
     &:hover,
     &:focus {
@@ -148,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid #FFCC00;
+      border: 2px solid var(--green);
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -168,86 +125,64 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'C++', 'Node.js', 'Express.js', 'Redux', 'Context-Api', 'Solana'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
 
   return (
+    <StyledAboutSection id="about" ref={revealContainer}>
+      <h2 className="numbered-heading">About Me</h2>
 
-    <div>
-      <StyledAboutSection id="about" ref={revealContainer}>
-        <h2 className="numbered-heading" >About Me</h2>
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>
+              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
+              interest in web development started back in 2012 when I decided to try editing custom
+              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
+              about HTML &amp; CSS!
+            </p>
 
-        <div className="inner">
+            <p>
+              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
+              <a href="https://starry.com/">a start-up</a>,{' '}
+              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
+              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
+              main focus these days is building accessible, inclusive products and digital
+              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
+              clients.
+            </p>
 
-          <StyledPic>
-            <div className="wrapper">
-              <StaticImage
-                className="img"
-                src="../../images/Aditya_Roy_Web_Pic.png"
-                width={500}
-                quality={95}
-                formats={['AUTO', 'WEBP', 'AVIF']}
-                alt="Headshot"
-              />
-            </div>
-          </StyledPic>
+            <p>
+              I also recently{' '}
+              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
+                launched a course
+              </a>{' '}
+              that covers everything you need to build a web app with the Spotify API using Node
+              &amp; React.
+            </p>
 
-          <StyledText>
-            <div>
-              <p>
-                {/* Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-                interest in web development started back in 2012 when I decided to try editing custom
-                Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-                about HTML &amp; CSS! */}
-                Hi!👋 I'm Aditya Roy, a creative thinker who is passionate about creating meaningful digital experiences. My journey began in 2018 with Logo Design using Photoshop and Illustrator. Venturing into freelancing a year later, I discovered the power of HTML, CSS, and web development, which led me to explore and master technologies like JavaScript and React. With <span className='yellowStyle'>1.5+ years</span> of experience in <span className='yellowStyle'>React</span>, it has become my go-to language. Currently, I'm designing innovative websites to continue growing as a <span className='yellowStyle'>Developer</span>. Let's build something great together!
-                <br /> 
-                <br />
-                Some Logo Design's i have build: <br />
-                <a className="yellowStyle" href="https://us.mullenlowe.com/">Logo Design-1</a>,{' '}
-                <a className="yellowStyle" href="https://us.mullenlowe.com/">Logo Design-2</a>,{' '}
-              </p>
+            <p>Here are a few technologies I’ve been working with recently:</p>
+          </div>
 
-              <p>
-                {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
-                <a className="yellowStyle" href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-                <a className="yellowStyle" href="https://starry.com/">a start-up</a>,{' '}
-                <a className="yellowStyle" href="https://www.apple.com/">a huge corporation</a>, and{' '}
-                <a className="yellowStyle" href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-                main focus these days is building accessible, inclusive products and digital
-                experiences at <a className="yellowStyle" href="https://upstatement.com/">Upstatement</a> for a variety of
-                clients. */}
+          <ul className="skills-list">
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        </StyledText>
 
-                {/* Currently enrolled in my Btech 4-year Electronics and Telecommunication program at KIIT University. You might be curious about how someone like me ends up in this field after a wild ride of creativity, logo design, and web development.
-                Well, it's a story best shared over a cup of coffee. Let's make that happen! ☕️ Get in touch, and let's discuss the exciting transition from logos to circuits. Excited to chat about it! ✨🔧 */}
-              </p>
-
-            </div>
-
-          </StyledText>
-
-          
-        </div>
-        {/* <br /> */}
-        {/* <br /> */}
-        <p className="leftShiftAlign">
-          {/* I also recently{' '}
-          <a style={{ color: '#FFCC00' }} href="https://www.newline.co/courses/build-a-spotify-connected-app">
-            launched a course
-          </a>{' '}
-            that covers everything you need to build a web app with the Spotify API using Node
-            &amp; React. */}
-            Currently enrolled in my Btech 4-year Electronics and Telecommunication program at KIIT University. You might be curious about how someone like me ends up in this field after a wild ride of creativity, logo design, and web development.
-            Well, it's a story best shared over a cup of coffee ☕️. Let's make that happen! Get in touch, and let's discuss the exciting transition from <span className='yellowStylee'>Logos to Circuits</span>. Excited to chat about it! ✨🔧
-        </p>
-
-        <p className="leftShiftAlign">Here are a few technologies I’ve been working with recently:</p>
-
-        <ul className="skills-list leftShiftAlign" >
-          {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-        </ul>
-            
-      </StyledAboutSection>
-      {/* <Skills /> */}
-    </div>
+        <StyledPic>
+          <div className="wrapper">
+            <StaticImage
+              className="img"
+              src="../../images/me.jpg"
+              width={500}
+              quality={95}
+              formats={['AUTO', 'WEBP', 'AVIF']}
+              alt="Headshot"
+            />
+          </div>
+        </StyledPic>
+      </div>
+    </StyledAboutSection>
   );
 };
 

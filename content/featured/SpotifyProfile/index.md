@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Face-Recognizer Webapp'
-cover: './Face-recognizer-screenshot.png'
-github: 'https://github.com/AdityaRoy101/facerecognizer-GRPC-frontend-final'
-external: 'https://aditya-facerecognizer.azurewebsites.net/'
+title: 'Spotify Profile'
+cover: './demo.png'
+github: 'https://github.com/bchiang7/spotify-profile'
+external: 'https://spotify-profile.herokuapp.com/'
 tech:
   - React
   - Styled Components
-  - Node
   - Express
-  - Rest Api
+  - Spotify API
+  - Heroku
 ---
 
-A Face and Gender recognition website enabled with user signIn-signUp page to perform CRUD operations leveraged the clarify Api, used [PosgreSQL](https://www.postgresql.org/) for database, Used [React](https://react.dev/) with [styled components](https://styled-components.com/) for frontend, enabled high quality user experience and perform fast user queries by using [GRPC](https://grpc.io/). Node and Express and Custom Rest Api for backend.
+A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.

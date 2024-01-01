@@ -9,10 +9,6 @@ const StyledContactSection = styled.section`
   margin: 0 auto 100px;
   text-align: center;
 
-  .hell{
-    color: #FAF5E9;
-  }
-  
   @media (max-width: 768px) {
     margin: 0 auto 50px;
   }
@@ -20,7 +16,7 @@ const StyledContactSection = styled.section`
   .overline {
     display: block;
     margin-bottom: 20px;
-    color: #FFCC00;
+    color: var(--green);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
@@ -61,10 +57,10 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
-      <h2 className="title hell">Get In Touch</h2>
+      <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m  currently looking for any new opportunities, my inbox is always open.
+        Although I’m not currently looking for any new opportunities, my inbox is always open.
         Whether you have a question or just want to say hi, I’ll try my best to get back to you!
       </p>
 

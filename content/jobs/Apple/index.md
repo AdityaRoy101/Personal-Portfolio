@@ -1,12 +1,13 @@
 ---
-date: '2023-08-21'
-title: 'Android Developer'
-company: 'Google'
-location: 'Remote'
-range: 'September 2023 - November 2023   (Internship)'
-url: 'https://developers.google.com/'
+date: '2017-12-21'
+title: 'UI Engineer Co-op'
+company: 'Apple'
+location: 'Cupertino, CA'
+range: 'July - December 2017'
+url: 'https://www.apple.com/music/'
 ---
 
-- The Internship Program was from AICTE and Google for Developers this was 6-weeks internship program.
-- Used <span style="color: #FFCC00;">Kotlin</span> language to buid apps and UI-Interfaces on <span style="color: #FFCC00;">Android Studios</span>.
-- Performed Unit testing on Android UI components, and have designed numerous material UI interfaces to enhance the User Experience.
+- Developed and styled interactive web applications for Apple Music using Ember and SCSS
+- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
+- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
+- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
