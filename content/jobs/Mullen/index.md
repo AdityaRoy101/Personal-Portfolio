@@ -3,7 +3,7 @@ date: '2023-10-21'
 title: 'Software Developer'
 company: 'ITJOBXS'
 location: 'Remote'
-range: 'October 2023 - January 2024'
+range: 'October 2023 - January 2024 (Internship)'
 # url: 'https://us.mullenlowe.com/'
 ---
 

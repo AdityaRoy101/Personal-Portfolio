@@ -3,7 +3,7 @@ date: '2024-03-12'
 title: 'Full Stack Engineer'
 company: 'Ernst & Young'
 location: 'Remote'
-range: 'March 2024 - April 2024'
+range: 'March 2024 - April 2024 (Internship)'
 url: 'https://www.ey.com/en_in'
 ---
 
