@@ -20,7 +20,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: #FFCC00;
+    color: #ffcc00;
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -31,7 +31,7 @@ const StyledHeroSection = styled.section`
   }
 
   h2 {
-    color: #FAF5E9;
+    color: #faf5e9;
   }
 
   h3 {
@@ -48,7 +48,7 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
-    color: #FFCC00;
+    color: #ffcc00;
   }
 `;
 
@@ -66,15 +66,23 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading" style={{ fontSize: 75 }}>Aditya Roy.</h2>;
+  const two = (
+    <h2 className="big-heading" style={{ fontSize: 75 }}>
+      Aditya Roy.
+    </h2>
+  );
   // const three = <h3 className="big-heading">I build things for the web.</h3>;
-  const three = < Slider />;
+  const three = <Slider />;
   const four = (
     <>
       <p style={{ fontSize: 16 }}>
-        {'"'}Passionate software developer with over a year of hands-on experience in React, 
-        creating seamless digital experiences, My expertise extends beyond code, I bring a deep understanding of software and web development, 
-        to elevate expectation of users to new heights.{'"'}
+        {'"'}Full-stack developer passionate about solving real business problems with clean,
+        efficient code. I have worked hands-on with Microservices and API backends, delivering
+        high-scale applications handling 10K+ users. Debugged code with industry grade softwares
+        like Grafana. My expertise ( Golang, Node, Express, React ), with a focus on performance
+        optimization and automation that directly impacts business metrics. From building dedicated
+        microservices to implementing caching strategies, I build solutions that scale while
+        maintaining excellent user experience.{'"'}
         {/* {'"'}Passionate software developer with over a year of hands-on experience in React, 
         blending creativity with robust system design to craft seamless digital experiences 
         My expertise extends beyond code, I bring a deep understanding of software and web development, 
@@ -91,7 +99,7 @@ const Hero = () => {
       href="https://www.linkedin.com/in/adityaroy101/"
       target="_blank"
       rel="noreferrer">
-       Contact Me.
+      Contact Me.
     </a>
   );
 

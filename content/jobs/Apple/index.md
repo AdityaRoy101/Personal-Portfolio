@@ -1,12 +1,11 @@
 ---
-date: '2023-08-21'
+date: '2023-06-13'
 title: 'Android Developer'
-company: 'Google'
+company: 'Ernst & Young'
 location: 'Remote'
-range: 'September 2023 - November 2023   (Internship)'
-url: 'https://developers.google.com/'
+range: 'March 2024 - April 2024'
+url: 'https://www.ey.com/en_in'
 ---
 
-- The Internship Program was from AICTE and Google for Developers this was 6-weeks internship program.
-- Used <span style="color: #FFCC00;">Kotlin</span> language to buid apps and UI-Interfaces on <span style="color: #FFCC00;">Android Studios</span>.
-- Performed Unit testing on Android UI components, and have designed numerous material UI interfaces to enhance the User Experience.
+- <span style="color: #FFCC00;">Working: </span> Developed a full-stack (Python, Django and BSoup) Crypto News Aggregator and details Tracker. Scrapped website data using Beautiful Soup, Scrapy..
+- <span style="color: #FFCC00;">Project: </span> Orchestrated the integration of Selenium Web Drivers, displayed and stored the news data in PSQLite3 database.

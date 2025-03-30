@@ -10,62 +10,84 @@
     font-family: "Montserrat", sans-serif;
 } */
 
-.animated-text{
-    font-size: 22px;
-    font-weight: 600;
-    min-width: 280px;
+.animated-text {
+  font-size: 22px;
+  font-weight: 600;
+  min-width: 280px;
 }
 
-.animated-text span{
-    position: relative;
+.animated-text span {
+  position: relative;
 }
 
-.animated-text span::before{
-    content: "Youtuber";
-    color: #FFCC00;
-    animation: words 20s infinite;
+.animated-text span::before {
+  content: 'Youtuber';
+  color: #ffcc00;
+  animation: words 20s infinite;
 }
 
-.animated-text span::after{
-    content: "";
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 108%;
-    background-color: #0A192F;
-    border-left: 2px solid #FFCC00;
-    right: -8px;
-    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+.animated-text span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 108%;
+  background-color: #0a192f;
+  border-left: 2px solid #ffcc00;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
 }
 
 @keyframes cursor {
-    to{
-        border-left: 2px solid white;
-    }
+  to {
+    border-left: 2px solid white;
+  }
 }
 
 @keyframes words {
-    0%,20%{
-        content: "Software Developer";
-    }
-    21%,40%{
-        content: "React Developer";
-    }
-    41%,60%{
-        content: "FrontEnd Developer";
-    }
-    61%,80%{
-        content: "FullStack Developer";
-    }
-    81%,100%{
-        content: "Software Engineer";
-    }
+  0%,
+  20% {
+    content: 'Software Developer';
+  }
+  21%,
+  40% {
+    content: 'React Developer';
+  }
+  41%,
+  60% {
+    content: 'FrontEnd Developer';
+  }
+  61%,
+  80% {
+    content: 'FullStack Developer';
+  }
+  81%,
+  100% {
+    content: 'Golang Developer';
+  }
 }
 
 @keyframes typing {
-    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
-        width: 0;
-    }
-    5%,20%,25%,40%,45%,60%,65%,80%,85%{
-        width: calc(100% + 8px);
-    }
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
 }
