@@ -1,5 +1,5 @@
 ---
-date: '2023-09-10'
+date: '2024-06-04'
 title: 'Software Developer ( SDE-I )'
 company: 'Traya'
 location: 'Bangalore'

@@ -1,6 +1,6 @@
 ---
-date: '2023-06-13'
-title: 'Android Developer'
+date: '2024-03-12'
+title: 'Full Stack Engineer'
 company: 'Ernst & Young'
 location: 'Remote'
 range: 'March 2024 - April 2024'

@@ -1,5 +1,5 @@
 ---
-date: '2023-08-21'
+date: '2024-01-01'
 title: 'Frontend Developer'
 company: 'Plain Works'
 location: 'Remote'

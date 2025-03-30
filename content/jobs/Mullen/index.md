@@ -1,11 +1,11 @@
 ---
-date: '2015-12-21'
-title: 'Graphic & Logo Designer'
-company: 'Freelancer'
-location: 'Self'
-range: 'November 2018 - January 2020'
+date: '2023-10-21'
+title: 'Software Developer'
+company: 'ITJOBXS'
+location: 'Remote'
+range: 'October 2023 - January 2024'
 # url: 'https://us.mullenlowe.com/'
 ---
 
-- Nowday's every company or big brands have a unique indentity in the market and most of the uniquess comes from the Brand Logo itself it is crucial and non-verbally connects the customer needs to the product.
-- I was a Logo Designer working as a Freelancer at UpWork and Etsy, i have built numerious logo concept's and i have some happy client's impressed of my work.
+- Spearheaded the design of a responsive web page for a targeted website section, tackling user authentication; iteratively developed solutions to combat fake bots and posts, resulting in a 40% reduction in spam content.
+- Proposed a solution for the above by integrating recaptcha with the website and allowing access to 100 valid email domains, improving platform integrity and user trust. Stack (Html, Bootstrap, Php, Mysql, Javascript).
