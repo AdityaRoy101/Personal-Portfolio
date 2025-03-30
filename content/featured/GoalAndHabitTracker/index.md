@@ -1,6 +1,6 @@
 ---
-date: '4'
-title: 'Face-Recognizer Webapp'
+date: '6'
+title: 'Advanced Goal and Habit Tracker'
 cover: './Goal_And_Habit_Tracker_App_SS.jpeg'
 github: 'https://github.com/AdityaRoy101/AI_Web_Services'
 # external: 'https://aditya-facerecognizer.azurewebsites.net/'

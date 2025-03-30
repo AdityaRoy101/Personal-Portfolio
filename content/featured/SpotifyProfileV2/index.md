@@ -1,5 +1,5 @@
 ---
-date: '5'
+date: '7'
 title: 'F.R.I.D.A.Y_-_Ver-1.0'
 cover: './Artificial Intelligence and Machine Learning Courses.png'
 external: 'https://github.com/AdityaRoy101/F.R.I.D.A.Y_-_Ver-1.0'

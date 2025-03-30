@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Snapgram'
 cover: './SnapGram_Project_SS.png'
 github: 'https://github.com/AdityaRoy101/social_media'
